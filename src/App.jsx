@@ -36,7 +36,7 @@ export default function App() {
       return currentTodos.filter(todo=> todo.id !== id) //if id is not equal to current id, then I want to keep it, otherwise don't add to new array of objects
     })
   }
-  console.log(todos)
+  // console.log(todos)
 
   return (
 //can call onSubmit whatever you want, just match in props. object
